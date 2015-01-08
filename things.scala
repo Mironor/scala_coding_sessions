@@ -141,3 +141,22 @@ Woof!
 Meow!
 I'd like to eat my own dog food!
 */
+/*
+// if
+val person = Person("Alex", 25)
+val isAuthenticated = false
+
+val name = if (isAuthenticated) person.name else "anon"
+
+// advanced
+val persons = List(Person("Alex", 25), Person("Ben", 28), Person("Khalid", 28))
+
+val names = persons.map(_.name)
+
+val names = for (person <- persons) yield person.name
+
+def getNames(persons: List[Persons]) = persons match {
+  case head :: tail => head.name :: getNames(tail)
+  case Nil => Nil
+}
+*/
