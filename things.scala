@@ -1,5 +1,5 @@
 1 + 2 // 3
-/*
+
 println("Hello Scala!")
 
 // Vars
@@ -132,7 +132,7 @@ println(pet.greet())
 pet = new HungryDog with ExclamatoryGreeter
 println(pet.greet())
 
-*/
+
 /*
 Woof
 Meow
@@ -141,7 +141,7 @@ Woof!
 Meow!
 I'd like to eat my own dog food!
 */
-/*
+
 // if
 val person = Person("Alex", 25)
 val isAuthenticated = false
@@ -159,4 +159,3 @@ def getNames(persons: List[Persons]) = persons match {
   case head :: tail => head.name :: getNames(tail)
   case Nil => Nil
 }
-*/
